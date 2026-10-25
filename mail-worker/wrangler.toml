@@ -13,7 +13,7 @@ database_id = "6e1a623b-dc02-4199-927d-fec493ae0dbf"		#d1数据库id
 
 [[kv_namespaces]]
 binding = "kv"			#kv绑定名默认不可修改
-id = "0fa01d4b299e481b9de060ece9e7785c"					#kv数据库id
+id = "44d766edecaa4a2387b33b596f4670e3"					#kv数据库id
 
 # [[r2_buckets]]
 # binding = "r2"			#r2对象存储绑定名默认不可修改
