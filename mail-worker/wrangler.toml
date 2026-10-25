@@ -1,10 +1,10 @@
-name = "cloud-mail"
+名字 = "cloud-mail"
 main = "src/index.js"
 compatibility_date = "2025-06-04"
 keep_vars = true
 
 [observability]
-enabled = true
+启用 = true
 
 [[d1_databases]]
 binding = "db"			#d1数据库绑定名默认不可修改
@@ -23,7 +23,7 @@ id = "0fa01d4b299e481b9de060ece9e7785c"					#kv数据库id
 #name = "email"			#CF发件, 配置后优先使用
 
 [[send_email]]
-名字 = "forward"		#站内转发到已验证的其他邮箱，不限制单个地址
+name = "forward"		#站内转发到已验证的其他邮箱，不限制单个地址
 
 [ai]
 binding = "ai"
